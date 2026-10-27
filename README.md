@@ -10,8 +10,12 @@
 - **Глубокое сканирование портов:** Многопоточный анализ открытых портов и баннеров.
 - **Генерация HTML-отчетов:** Создание красивых отчетов для аудита.
 
-## 🛠 Установка:
+## 🛠 Установка на Linux:
 ```bash
-cd ScannerZiUPX
+sudo apt update
+sudo apt install git -y
+git clone https://github.com/ZiUPX/ZiUPX_Scan.git
+cd ScannerZiUPX 
 pip install requests rich
 python ZiUPXscan.py
+
