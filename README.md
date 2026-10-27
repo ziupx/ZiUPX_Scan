@@ -15,7 +15,7 @@
 sudo apt update
 sudo apt install git -y
 git clone https://github.com/ZiUPX/ZiUPX_Scan.git
-cd ScannerZiUPX 
+cd ZiUPX_Scan
 pip install requests rich
 python ZiUPXscan.py
 
