@@ -12,5 +12,6 @@
 
 ## 🛠 Установка:
 ```bash
+cd ScannerZiUPX
 pip install requests rich
 python ZiUPXscan.py
