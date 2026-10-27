@@ -10,6 +10,16 @@
 - **Глубокое сканирование портов:** Многопоточный анализ открытых портов и баннеров.
 - **Генерация HTML-отчетов:** Создание красивых отчетов для аудита.
 
+### 📱 Termux (Android):
+'''bash
+pkg update && pkg upgrade -y
+pkg install python -y
+pip install requests rich
+git clone https://github.com/kobey405-stack/ZiUPX_Scan.git
+cd ZiUPX_Scan
+python ziupx_ultimate.py
+
+
 ## 🛠 Установка на Linux:
 ```bash
 sudo apt update
